@@ -1,0 +1,111 @@
+
+#header {
+    height: 95px;
+    background: #428bca;
+}
+
+.a {
+    background: red;
+    width: 1000px;
+    height: 300px;
+}
+ 
+ 
+#brand_name {
+    font-size: 40px;
+    color: #fff;
+    line-height: 50px;
+    position: relative;
+    padding-left: 50px;
+    display: inline-block;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.message {
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #2E3B47;
+}
+
+
+.nav-pills {
+    font-size: 16px;
+    margin-top: 27px;
+    height: 70px;
+    float: right;
+    width: 350px;
+}
+
+
+.nav-pills a{
+color: #2E3B47;
+}
+
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+
+#footer {
+    height: 60px;
+    background: #428bca;
+}
+
+.footer-p {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+
+#container {
+    padding: 20px;
+    background: #fff;
+    color: #2E3B47;
+}
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+}
+
+
+#myCarousel {
+    margin-top:50px;
+}
+
+/** Forms */
+form {
+    font: 100% sans-serif;
+}
+
+form label { 
+    display: block;
+    float: left; 
+    width: 150px; 
+    padding: 0; 
+    margin: 9px 0 0;
+    text-align: right; 
+}
+
+form input, form select {
+    width: auto;
+    margin: 5px 0 0 10px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+
+form input[type=submit]:hover {
+    cursor: pointer;
+    background: silver;
+}
+
+
+form br {clear: left;}
